@@ -1,4 +1,4 @@
-package org.example.singleton;
+package singleton;
 
 /**
  * 枚举方式进行实例化，是线程安全的，此种方式也是线程最安全的

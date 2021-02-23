@@ -1,4 +1,4 @@
-package org.example.singleton;
+package singleton;
 
 /**
  * 懒汉式, 双重锁同步锁单例模式 , 线程不安全,  JVM和CPU优化时，指令重排

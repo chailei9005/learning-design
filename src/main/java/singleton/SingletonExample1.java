@@ -1,4 +1,4 @@
-package org.example.singleton;
+package singleton;
 
 /**
  * 懒汉式 , 线程不安全

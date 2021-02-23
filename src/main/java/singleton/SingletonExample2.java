@@ -1,4 +1,4 @@
-package org.example.singleton;
+package singleton;
 
 /**
  * 饿汉式 , 线程安全, 类加载的时候创建对象

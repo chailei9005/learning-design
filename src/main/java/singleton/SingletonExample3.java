@@ -1,4 +1,4 @@
-package org.example.singleton;
+package singleton;
 
 /**
  * 懒汉式 , 线程安全, 使用关键字 synchronized  为什么不推荐使用

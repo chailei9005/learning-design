@@ -1,4 +1,4 @@
-package org.example.singleton;
+package singleton;
 
 /**
  * 饿汉式 , 线程安全, 静态代码块创建对象
