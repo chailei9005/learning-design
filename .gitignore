@@ -1,2 +1,10 @@
 # Project exclude paths
 /target/
+.classpath
+.project
+.DS_Store
+.externalToolBuilders
+.settings
+/bin/
+.idea/
+**.iml
