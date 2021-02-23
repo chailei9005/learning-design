@@ -4,6 +4,9 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
+/**
+ * classloader 的原理
+ */
 public class MetricsCollectionProxy {
 
     public MetricsCollectionProxy() {
@@ -14,6 +17,8 @@ public class MetricsCollectionProxy {
         Class<?>[] interfaces = object.getClass().getInterfaces();
         DynamicProxyHandler dynamicProxyHandler = new DynamicProxyHandler(object);
 
+        System.out.println(object.getClass());
+        System.out.println(object.getClass().getClassLoader());
         return Proxy.newProxyInstance(object.getClass().getClassLoader(), interfaces, dynamicProxyHandler);
     }
 
